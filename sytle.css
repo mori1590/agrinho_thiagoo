@@ -1,1 +1,38 @@
+/* Estilo para o corpo do site */
+body {
+    background-color: #d2e8d2; /* Verde claro para o fundo */
+    color: #4d3319; /* Marrom escuro para o texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
 
+/* Estilo para os títulos */
+h1, h2, h3 {
+    color: #4d3319; /* Marrom escuro para os títulos */
+}
+
+/* Estilo para links */
+a {
+    color: #006600; /* Verde para links não visitados */
+}
+
+a:hover {
+    color: #003300; /* Verde mais escuro ao passar o mouse */
+}
+
+/* Estilo para os elementos das árvores */
+.tree {
+    width: 50px; /* Largura da árvore */
+    height: 100px; /* Altura da árvore */
+    background-color: #663300; /* Marrom escuro para o tronco */
+    position: relative;
+}
+
+.tree::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #003300; /* Verde escuro para a copa */
+    position: absolute;
+    bottom: 100px; /* Posição da copa em relação à base da árvore */
