@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<tittle>DO Campo á Cidade: COlhendo Oportunidades</tittle>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Do Campo á Cidade:Colhendo Oportunidades</h1>
+<nav>
+<ul>
+<li><a href="#sobre">sobre</a></li>
+<li><a href="#oportunidade">oportunidades</a></li>
+<i><a href="#contato">contato</a></li>
+</ul>
+</nav>
+</header>
+<section id="sobre"
+<h2>sobre</h2>
+<p> explique aqui sobre a trancisao do campo a ciade</p>
+</section>
+<section id="oportunidades">
+<h2>oportunidades na cidade</h2>
+<p> explique as diferentes oportunidades</p>
+</section>
+<section id="contato">
+<h2> entre em contato</h2>
+<p> se tiver alguma ideia e quiser informacoes sobre  entre em contato</p>
+<form action='enviar.php" method="POST">
+<label for="nome" name="nome" required>
+<label type="text" id="nome" name="nome" required>
+<label for="email">email:</label>
+<input type="email" id="email" name="email" required>
+<label for="mensagem">mensagem:</label>
+<textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+<button type="submit"<Enviar</button>
+</form>
+</section>
+<footer>
+<p>&copy; 2024 Do Campo á Cidade</p>
+</footer>
+</body>
+</html>
